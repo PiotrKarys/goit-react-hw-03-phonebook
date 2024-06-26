@@ -1,0 +1,29 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label {
+  font-weight: bold;
+  gap: 10px;
+  display: flex;
+}
+
+.input {
+  margin-top: 5px;
+}
+
+.button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  max-width: 500px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

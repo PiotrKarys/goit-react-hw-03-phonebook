@@ -1,0 +1,31 @@
+.list {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.text {
+  margin: 0;
+}
+
+.button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #c82333;
+}
